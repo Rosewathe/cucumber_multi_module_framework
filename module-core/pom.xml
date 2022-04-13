@@ -14,7 +14,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <snakeyaml>1.30</snakeyaml>
+        <snakeyaml>1.29</snakeyaml>
         <lombok.version>1.18.22</lombok.version>
     </properties>
 <dependencies>
@@ -29,8 +29,11 @@
     <dependency>
         <groupId>org.yaml</groupId>
         <artifactId>snakeyaml</artifactId>
-        <version>1.30</version>
+        <version>${snakeyaml}</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+
+
 
 </dependencies>
 </project>
